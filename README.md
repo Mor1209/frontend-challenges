@@ -1,1 +1,1 @@
-# frontend-mentor
+# frontend-challenges
