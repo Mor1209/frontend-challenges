@@ -6,7 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        screen: ['100vh /* fallback for Opera, IE and etc. */', '100lvh'],
+      },
+      fontFamily: {
+        sans: ['var(--font-poppins)'],
+      },
+    },
   },
   plugins: [],
 }
